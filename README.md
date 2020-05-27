@@ -15,8 +15,11 @@ and move below ETHMA20 which means trend reversal and sETH is converted to sUSD 
 
 Future Consideration:-
 1- Deposit ETH into Uniswap ETH/sETH pool to collect rewards.
-2- Make it frondend more user friendly so that User can easily start trading and build strategies for trading
+
+2- Make it frondend more user friendly so that User can easily start trading and build strategies for trading.
+
 3- Make a library so that anyone can use it to make their own strategy.
+
 4- Add more criteria for rebalancing
 
 Contracts:-
