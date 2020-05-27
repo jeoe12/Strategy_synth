@@ -1,11 +1,16 @@
 This Project work similar to TokenSet(Set Protocol). In this Repository following are the flow of procedure:-
 
 1- ETH is converted to sETH
+
 2- sETH is deposited to Vault.
+
 3- CSV file is used to collect sETH historical data (ETH data collected from investing.com) and 20Day Moving Average is calculated based on ETH historical data(from April-01 to May-26).it can be accessed from http://localhost:3000/ using node npm module.
+
 4- In index.js , web3 is used to check the price of ETHMA20 and sETH using 'synthetix-js'. If ETH price crosses
 and move below ETHMA20 which means trend reversal and sETH is converted to sUSD to reduce furthur downturn. when ETH price crosses and move above ETHMA20, it converted back to ETH to capture upside trend.
-5-sUSD can furthur converted into SNX and put on staking using Mintr and earn reward, and when trend reversal happen It is converted back to.
+
+5-sUSD can furthur converted into SNX and put on staking using Mintr and earn reward, and when trend reversal happen It is converted back to ETH.
+
 6-Frontend has Line Graph showing sETH price and sETHMA20 and pay button, but I am not able to connect it with web3 in index.js. Need some more time to find a way to may a Dapp for everyone.
 
 Future Consideration:-
