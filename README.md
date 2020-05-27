@@ -36,7 +36,11 @@ tx:- 0x75c7e9374e03851641a7efabc0fd88774bcd60cc3d89c1d8bb76dfefa8a31d18
 contract:- https://kovan.etherscan.io/address/0x7093c721be683C591CD0F4F97d6C3008989a3694
 
 Work with this repo:
+
 1- "npm Install"
+
 2-"node index.js"
+
 3- open "http://localhost:3000/" in browser when server starts  
+
 4- browser will show chart with sETH prices and sETHMA20 and pay button which need to be fixed.
