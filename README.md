@@ -1,4 +1,5 @@
 This Project work similar to TokenSet(Set Protocol). In this Repository following are the flow of procedure:-
+
 1- ETH is converted to sETH
 2- sETH is deposited to Vault.
 3- CSV file is used to collect sETH historical data (ETH data collected from investing.com) and 20Day Moving Average is calculated based on ETH historical data(from April-01 to May-26).it can be accessed from http://localhost:3000/ using node npm module.
